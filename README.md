@@ -89,6 +89,31 @@ Install the required Python packages:
 pip install pandas numpy scikit-learn matplotlib dash plotly
 ```
 
+#### 1. Pandas
+- Pandas is a powerful library for data manipulation and analysis. It provides data structures like DataFrames and Series, which make it easy to handle structured data (e.g., CSV files, Excel sheets).
+- Used to load, process, and manipulate sensor and equipment data stored in CSV files.
+
+#### 2. NumPy
+- NumPy is a fundamental library for numerical computing in Python. It provides support for arrays, matrices, and mathematical functions.
+- Used to generate random sensor data (e.g., temperature, pressure, vibration) and perform numerical operations.
+
+#### 3. Scikit-learn
+- Scikit-learn is a machine learning library that provides tools for data modeling, including classification, regression, clustering, and more.
+- Used to train a Random Forest classifier for predicting equipment status based on sensor data.
+
+#### 4. Matplotlib
+- Matplotlib is a plotting library for creating static, animated, and interactive visualizations in Python.
+- Not directly used in this project, but it’s a common alternative to Plotly for creating graphs and charts.
+
+#### 5. Dash
+- Dash is a framework for building interactive web applications in Python. It is built on top of Flask, Plotly, and React.js.
+- Used to create a real-time dashboard for visualizing sensor and equipment data.
+
+#### 6. Plotly
+- Plotly is a graphing library that makes interactive, publication-quality graphs. It integrates well with Dash for creating web-based visualizations.
+- Used to create interactive line charts for temperature and equipment status in the dashboard.
+
+
 ### 4. Data Generation
 Generate the initial data:
 ```
