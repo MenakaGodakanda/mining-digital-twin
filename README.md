@@ -100,8 +100,10 @@ python scripts/data_generator.py
 
 - Example Content:
   - `sensor_data.csv`:
+![Screenshot 2025-01-30 181041](https://github.com/user-attachments/assets/2e363715-edef-4d49-972c-da03e58888bc)
 
   - `equipment_data.csv`:
+![Screenshot 2025-01-30 181023](https://github.com/user-attachments/assets/ccf2281f-c1f9-4548-bdf0-094574a4a0cf)
 
 - Console Output:
 ![Screenshot 2025-01-30 123557](https://github.com/user-attachments/assets/bbf8fe4b-6ac6-4502-9980-611344e1cf62)
