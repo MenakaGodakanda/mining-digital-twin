@@ -82,6 +82,7 @@ Create and activate a Python virtual environment:
 python3 -m venv dtm
 source dtm/bin/activate
 ```
+![Screenshot 2025-01-30 122059](https://github.com/user-attachments/assets/9584fe14-e9b9-4d37-b3ea-549180d56256)
 
 Install the required Python packages:
 ```
@@ -95,13 +96,15 @@ python scripts/data_generator.py
 ```
 - This script will generate synthetic sensor and equipment data.
 - Output: Two CSV files (`sensor_data.csv` and `equipment_data.csv`) will be generated in the `data/` directory.
+![Screenshot 2025-01-30 175756](https://github.com/user-attachments/assets/57a1cb43-31b0-47c5-ba9c-f2d3c07673bc)
+
 - Example Content:
   - `sensor_data.csv`:
 
   - `equipment_data.csv`:
 
 - Console Output:
-
+![Screenshot 2025-01-30 123557](https://github.com/user-attachments/assets/bbf8fe4b-6ac6-4502-9980-611344e1cf62)
 
 ### 5. Data Processing
 Train the predictive model:
@@ -110,8 +113,10 @@ python scripts/data_processor.py
 ```
 - This script will process the data and train a simple predictive model.
 - Output: A trained machine learning model (predictive_model.pkl) will be saved in the models/ directory.
+![Screenshot 2025-01-30 175748](https://github.com/user-attachments/assets/4b3b3fe9-8a88-4985-bc10-b848d581aa5c)
 
 - Console Output:
+![Screenshot 2025-01-30 124946](https://github.com/user-attachments/assets/3977e91a-302a-439c-bcb6-a03db9457f0c)
 
 - The accuracy will vary depending on the random data generated.
 
@@ -124,6 +129,7 @@ python scripts/simulation.py
 - Output: The simulation will continuously predict the status of mining equipment based on the generated sensor data.
 
 - Console Output:
+![Screenshot 2025-01-30 125301](https://github.com/user-attachments/assets/d882886e-c571-426a-947c-fc8c9c186357)
 
 - This will update every 5 seconds.
 
@@ -133,11 +139,17 @@ Start the real-time visualization dashboard:
 python scripts/visualization.py
 ```
 - This script will create a real-time dashboard.
+![Screenshot 2025-01-30 130206](https://github.com/user-attachments/assets/90b6a8df-cb4c-4281-97b3-1bcfda37995f)
+
 - Output: A web-based dashboard will display real-time sensor data (e.g., temperature over time).
 - Dashboard:
-- Open your browser and navigate to `http://127.0.0.1:8050/`.
-- You will see a live-updating line chart showing the temperature data over time.
-- Example:
+  - Open your browser and navigate to `http://127.0.0.1:8050/`.
+  - You will see a live-updating line chart showing the temperature data over time.
+  - Example:
+
+https://github.com/user-attachments/assets/8be4fc63-b996-4509-8b99-b693ab4131ee
+
+https://github.com/user-attachments/assets/3d88a91a-a690-44f0-a03c-d39b72a8eef4
 
 - The chart will update every 5 seconds as new data is generated.
 
